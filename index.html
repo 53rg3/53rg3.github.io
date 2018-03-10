@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>53rg3</title>
+	<style type="text/css">
+		body {
+			background-color: #f442f1;
+		}
+		.container {
+			height: 100%;
+			width: 100%;
+		}
+		.content {
+			font-family: Arial;
+			font-weight:bold;
+			font-size: 50px;
+			color: #55f478;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			height: 100vh;
+		}
+		@-webkit-keyframes blink {
+		    from {
+		        opacity: 1.0;
+		    }
+		    to {
+		        opacity: 0.0;
+		    }
+		}
+		blink {
+		    -webkit-animation-name: blink;
+		    -webkit-animation-iteration-count: infinite;
+		    -webkit-animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0);
+		    -webkit-animation-duration: 1s;
+		}
+		blink::before {
+			content: "53rg3.dev@gmail.com";
+		}
+		.smalltext {
+			font-size: 12px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="box">
+		<div class="content">
+			<center>
+				<img src="dance.gif" width="500px" height="500px"/>
+			</center>
+
+			<blink></blink>
+
+			<div class="smalltext">
+				Music: <a href="https://dubmood.bandcamp.com/">Dubmood - Just Another Paper Intro</a>
+			</div>
+
+			<audio autoplay>
+			  <source src="dubmood.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+	</div>
+</div>
+</body>
+</html>
