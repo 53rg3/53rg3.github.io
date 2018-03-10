@@ -1,0 +1,38 @@
+body {
+	background-color: #f442f1;
+}
+.container {
+	height: 100%;
+	width: 100%;
+}
+.content {
+	font-family: Arial;
+	font-weight:bold;
+	font-size: 50px;
+	color: #55f478;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+}
+@-webkit-keyframes blink {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.0;
+    }
+}
+blink {
+    -webkit-animation-name: blink;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0);
+    -webkit-animation-duration: 1s;
+}
+blink::before {
+	content: "53rg3.dev@gmail.com";
+}
+.smalltext {
+	font-size: 12px;
+}
