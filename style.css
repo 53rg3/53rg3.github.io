@@ -31,9 +31,9 @@ blink {
     -webkit-animation-duration: 1s;
 }
 blink::before {
-	content: "53rg3.dev@gmail.com";
+	content: "mail@sergejschaefer.net";
 }
-.dancer {
+.fading {
 	animation:fadeIn 6s ease;
 }
 @keyframes fadeIn {
@@ -46,10 +46,6 @@ blink::before {
 	100% {
 		opacity:1;
 	}
-}
-
-.fadeMe.none {
-	display:none
 }
 .smalltext {
 	font-size: 12px;
