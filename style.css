@@ -33,6 +33,24 @@ blink {
 blink::before {
 	content: "53rg3.dev@gmail.com";
 }
+.dancer {
+	animation:fadeIn 6s ease;
+}
+@keyframes fadeIn {
+	0% {
+		opacity:0
+	}
+	50% {
+		opacity:0
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+.fadeMe.none {
+	display:none
+}
 .smalltext {
 	font-size: 12px;
 }
