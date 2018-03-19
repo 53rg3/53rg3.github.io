@@ -8,10 +8,7 @@
         function addstyle()
         {
             document.getElementById('style').href='style.css';
-            document.getElementById('fading').style="";
-            document.getElementById('dancer').style="";
-            document.getElementById('blinker').style="";
-            document.getElementById('smalltext').style="";
+            document.getElementById('content').innerHTML="<div class='fading'><center> <img src='dance.gif' width='500px' height='500px'/></center><blink></blink><div class='smalltext'> Music: <a href='https://dubmood.bandcamp.com/'>Dubmood - Just Another Paper Intro</a></div></div>";
         }
     </script>
     <style>
@@ -41,18 +38,8 @@
 </audio>
 <div class="container">
     <div class="box">
-        <div class="content">
-            <div class="fading" id="fading" style="display:none;">
-                <center>
-                    <img src="dance.gif" id="dancer" style="display:none;" width="500px" height="500px"/>
-                </center>
+        <div class="content" id="content">
 
-                <blink id="blinker" style="display:none;"></blink>
-
-                <div class="smalltext" id="smalltext" style="display:none;">
-                    Music: <a href="https://dubmood.bandcamp.com/">Dubmood - Just Another Paper Intro</a>
-                </div>
-            </div>
         </div>
     </div>
 </div>
