@@ -9,6 +9,9 @@
         {
             document.getElementById('style').href='style.css';
             document.getElementById('fading').style="";
+            document.getElementById('dancer').style="";
+            document.getElementById('blinker').style="";
+            document.getElementById('smalltext').style="";
         }
     </script>
     <style>
@@ -41,12 +44,12 @@
         <div class="content">
             <div class="fading" id="fading" style="display:none;">
                 <center>
-                    <img src="dance.gif" width="500px" height="500px"/>
+                    <img src="dance.gif" id="dancer" style="display:none;" width="500px" height="500px"/>
                 </center>
 
-                <blink></blink>
+                <blink id="blinker" style="display:none;"></blink>
 
-                <div class="smalltext">
+                <div class="smalltext" id="smalltext" style="display:none;">
                     Music: <a href="https://dubmood.bandcamp.com/">Dubmood - Just Another Paper Intro</a>
                 </div>
             </div>
